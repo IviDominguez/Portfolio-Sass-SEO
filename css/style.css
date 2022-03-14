@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container__general{
+    background-color: rgb(235, 235, 235);
+}
+
+
+/*INDEX*/
+/* header */
+.header{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 120px;
+    border: 2px solid rgb(252, 160, 74);
+}
+
+.barra li{
+    list-style-type: none;
+}
+.barra li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px; 
+}
+.hover a:hover{
+    background-color: rgb(252, 160, 74);
+    color: white;
+    border: 2px solid rgb(252, 160, 74);
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+
+/*main INDEX*/
+.main__div{
+    margin: 2rem 0 4rem 0;
+}
+.h1{
+    color: black;
+    font-size: 120px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+}
+.main__h1{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div1__h2{
+    color: black;
+    font-size: 90px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+}
+.section .section__div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.div2__h2{
+    color: black;
+    font-size: 80px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+}
+.section .section__div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+/*footer estilo INDEX Y PAGES*/
+.footer{
+    background-color: rgb(235, 235, 235);
+    border: 2px solid rgb(252, 160, 74);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+.nombre{
+    color: black;
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+}
+
+.nav__footer ul li{
+    list-style-type: none;
+}
+
+.nav__footer ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;  
+}
+.linkedin i{
+    color: rgb(252, 160, 74);
+    font-size: 25px;
+}
+.behance i{
+    color: rgb(252, 160, 74);
+    font-size: 25px;
+    margin-left: 20px;
+}
+.facebook i{
+    color: rgb(252, 160, 74);
+    font-size: 25px;
+    margin-left: 20px;
+}
+.instagram i{
+    color: rgb(252, 160, 74);
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+/*------------------------------*/
+/*@media para mobile*/
+@media (max-width: 480px) {
+    .header{
+        height: 100px;
+    }
+    .barra li a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Syne', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 4px;
+    }   
+    .hover a:hover{
+        background-color: rgb(252, 160, 74);
+        color: white;
+        border: 2px solid rgb(252, 160, 74);
+        border-radius: 20px;
+        padding: 6px;
+        
+    }
+    .main{
+        height: 300px;
+        margin-top: 50px;
+    }
+    .h1{
+        color: black;
+        font-size: 35px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+    }
+    .div1__h2{
+        color: black;
+        font-size: 30px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+    }
+    .div2__h2{
+        color: black;
+        font-size: 30px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+    }
+
+    .footer{
+        background-color: rgb(235, 235, 235);
+        border: 2px solid rgb(252, 160, 74);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 0 8px 0;
+    
+        
+    }
+    .nav__footer ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 8px;
+        
+    }
+    
+}
+
+/*------------------------------*/
+/*@media para tablet*/
+
+@media (min-width: 481px) and (max-width: 780px) {
+    .header{
+        height: 100px;
+    }
+    .barra li a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Syne', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 4px;
+    }   
+    .hover a:hover{
+        background-color: rgb(252, 160, 74);
+        color: white;
+        border: 2px solid rgb(252, 160, 74);
+        border-radius: 20px;
+        padding: 4px;
+    }
+    .main{
+        height: 300px;
+        margin-top: 50px;
+    }
+    .h1{
+        color: black;
+        font-size: 55px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+    }
+    .div1__h2{
+        color: black;
+        font-size: 45px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+    }
+    .div2__h2{
+        color: black;
+        font-size: 45px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+    }
+
+    .footer{
+        background-color: rgb(235, 235, 235);
+        border: 2px solid rgb(252, 160, 74);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 8px 0 8px 0;   
+    }
+    .nav__footer ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 8px;
+        
+    }
+}
+
+
+
+
+/*------------------------------*/
+  
+/* estilo ABOUT*/
+/*header todas las pages*/
+
+
+.nav__bar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.barra li{
+    margin: 0 20px;
+}
+
+.div__inicio{
+    list-style-type: none;
+}
+.div__inicio a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px; 
+}
+.hover__inicio a:hover{
+    background-color: rgb(252, 160, 74);
+    color: white;
+    border: 2px solid rgb(252, 160, 74);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+/*section ABOUT*/
+.sectionAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sectionAbout div{
+    width: 620px;
+    height: 630px;
+}
+.sectionAbout div, .babyYoda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*main estilo ABOUT*/
+.mainAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div__uno{
+    width: 500px;
+    height: 215px;
+    border: 2px solid rgb(252, 160, 74);
+    padding: 10px;
+    margin-bottom: 3rem;
+}
+
+.div__uno p{
+    color: black;
+    font-size: 30px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/*section dos */
+
+.sectionDos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div__experiencia, .experiencia{
+    color: black;
+    font-size: 40px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+
+}
+.div__experiencia, .trabajo-cuatro, .trabajo-tres, .trabajo-dos, .trabajo-uno{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+} 
+.experiencia{
+    width: 700px;
+    height: 50px;
+    border: 2px solid rgb(252, 160, 74);
+    padding: 10px;
+}
+.trabajo-cuatro{
+    width: 700px;
+    height: 100px;
+    border: 2px solid rgb(252, 160, 74);
+    padding: 10px;
+}
+.trabajo-tres{
+    width: 700px;
+    height: 100px;
+    border: 2px solid rgb(252, 160, 74);
+    padding: 10px;
+}
+.trabajo-dos{
+    width: 700px;
+    height: 100px;
+    border: 2px solid rgb(252, 160, 74);
+    padding: 10px;
+}
+.trabajo-uno{
+    width: 700px;
+    height: 100px;
+    border: 2px solid rgb(252, 160, 74);
+    padding: 10px;
+}
+
+
+
+
+    
+
+
+/*Luminaria*/
+
+ 
+.section .section__h2{
+    color: black;
+    font-size: 45px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+     margin: 10px;
+}
+  
+   
+
+    
