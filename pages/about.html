@@ -10,6 +10,9 @@
 <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
 
+<!--css AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!--tipografias-->
 
 <!--SYNE-->  <!--para copiar en css font-family: 'Syne', sans-serif;-->    
@@ -50,7 +53,7 @@
 
 <!--main-->       
         <main class="mainAbout">    
-            <div class="div__uno">
+            <div data-aos="zoom-out" class="div__uno">
                 <p class="parrafo-uno">RECIBIDO EN LA UBA.</p>
                 <p class="parrafo-dos">DISEÑADOR DE PRODUCTO, PERSONAJES, MOLDES Y MATRICES.</p>
                 <p class="parrafo-tres">EXPERTO EN MODELADO PARAMETRICO Y ORGANICO.</p>
@@ -60,17 +63,17 @@
 <!--section dos-->       
         <section class="sectionDos">
             <div class="div__experiencia">
-                <h2 class="experiencia">Experiencia</h2>
-                <div class="trabajo-cuatro">
+                <h2 class="experiencia">EXPERIENCIA</h2>
+                <div data-aos="fade-right" class="trabajo-cuatro">
                     <p>Actualmente, ingeniero de sustaining en Medix Medical Devices.</p>
                 </div>
-                <div class="trabajo-tres">
+                <div data-aos="fade-left" class="trabajo-tres">
                     <p>Diseñador Industrial en PPR Solutions. 2018-2022</p>
                 </div>
-                <div class="trabajo-dos">
+                <div data-aos="fade-right" class="trabajo-dos">
                     <p>Diseñador proyectista en Taller de Modelos Buenos Aires. 2012-2018</p>
                 </div>
-                <div class="trabajo-uno">
+                <div data-aos="fade-left" class="trabajo-uno">
                     <p>Emprendedor Independiente en IPLAST. 2009-2011</p>
                 </div>  
             </div>
@@ -89,6 +92,13 @@
             </nav>
         </footer>
 
+
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </div>
     
 </body>
