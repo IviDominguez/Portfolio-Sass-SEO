@@ -10,7 +10,7 @@
 
 /*INDEX*/
 /* header */
-.header{
+/*.header{
     background-color: rgb(235, 235, 235);
     display: flex;
     flex-direction: row;
@@ -38,9 +38,41 @@
     color: white;
     border: 2px solid rgb(252, 160, 74);
     border-radius: 20px;
-    padding: 8px;
+    padding: 8px;  
     
+}*/
+
+/*NAVBAR BS*/
+.navBar-modificada{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+    /*border: 2px solid rgb(252, 160, 74);*/
 }
+.items-barra li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.items-barra li a:hover{
+    background-color: rgb(252, 160, 74);
+    color: white;
+    border: 2px solid rgb(252, 160, 74);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+
+
 
 /*main INDEX*/
 .main__div{
@@ -326,8 +358,8 @@
     justify-content: center;
 }
 .div__uno{
-    width: 550px;
-    height: 300px;
+    width: 600px;
+    height: 415px;
     border: 4px groove rgb(252, 160, 74);
     border-radius: 10px;
     padding: 10px;
@@ -340,6 +372,7 @@
     font-family: 'Syne', sans-serif;
     font-weight: 700;
     text-align: center;
+
 }
 
 
