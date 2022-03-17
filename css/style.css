@@ -73,7 +73,6 @@
 
 
 
-
 /*main INDEX*/
 .main__div{
     margin: 2rem 0 4rem 0;
@@ -166,28 +165,10 @@
 
 /*------------------------------*/
 /*@media para mobile*/
-@media (max-width: 480px) {
-    .header{
-        height: 100px;
-    }
-    .barra li a{
-        text-decoration: none;
-        color: black;
-        font-family: 'Syne', sans-serif;
-        font-size: 10px;
-        font-weight: 400;
-        border: 2px solid black;
-        border-radius: 20px;
-        padding: 4px;
-    }   
-    .hover a:hover{
-        background-color: rgb(252, 160, 74);
-        color: white;
-        border: 2px solid rgb(252, 160, 74);
-        border-radius: 20px;
-        padding: 6px;
-        
-    }
+@media (max-width: 576px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    }    
     .main{
         height: 300px;
         margin-top: 50px;
@@ -234,27 +215,10 @@
 /*------------------------------*/
 /*@media para tablet*/
 
-@media (min-width: 481px) and (max-width: 780px) {
-    .header{
-        height: 100px;
-    }
-    .barra li a{
-        text-decoration: none;
-        color: black;
-        font-family: 'Syne', sans-serif;
-        font-size: 10px;
-        font-weight: 400;
-        border: 2px solid black;
-        border-radius: 20px;
-        padding: 4px;
-    }   
-    .hover a:hover{
-        background-color: rgb(252, 160, 74);
-        color: white;
-        border: 2px solid rgb(252, 160, 74);
-        border-radius: 20px;
-        padding: 4px;
-    }
+@media (min-width: 576px) and (max-width: 991px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    } 
     .main{
         height: 300px;
         margin-top: 50px;
@@ -295,16 +259,13 @@
     }
 }
 
-
-
-
 /*------------------------------*/
   
 /* estilo ABOUT*/
 /*header todas las pages*/
 
 
-.nav__bar ul{
+/*.nav__bar ul{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -333,7 +294,7 @@
     border: 2px solid rgb(252, 160, 74);
     border-radius: 20px;
     padding: 8px;
-}
+}*/
 
 /*section ABOUT*/
 .sectionAbout{
@@ -374,7 +335,6 @@
     text-align: center;
 
 }
-
 
 /*section dos */
 
@@ -431,12 +391,6 @@
     margin-top: 3rem;
 }
 
-
-
-
-    
-
-
 /*Luminaria*/
 
  
@@ -445,7 +399,7 @@
     font-size: 45px;
     font-family: 'Syne', sans-serif;
     font-weight: 600;
-     margin: 10px;
+    margin: 10px;
 }
   
    
