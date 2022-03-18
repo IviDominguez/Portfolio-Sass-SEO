@@ -45,95 +45,102 @@
 /*NAVBAR BS*/
 .navBar-modificada{
     background-color: rgb(235, 235, 235);
-    display: flex;
+    display: inline;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
-    height: 100px;
+    height: 6.5rem;
     /*border: 2px solid rgb(252, 160, 74);*/
 }
 .items-barra li a{
     text-decoration: none;
     color: black;
     font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.items-barra{
+    margin-right: 2rem;
+}
+.logo{
+    margin-left: 3rem;
+}
+.boton{
+    margin-right: 1rem;
 }
 
 .items-barra li a:hover{
-    background-color: rgb(252, 160, 74);
-    color: white;
-    border: 2px solid rgb(252, 160, 74);
-    border-radius: 20px;
-    padding: 8px;
+    color: rgb(252, 160, 74);
 }
 
 
 
 /*main INDEX*/
-.main__div{
-    margin: 2rem 0 4rem 0;
+.mainIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
+.main__div{
+    width: 60rem;
+    height: 28rem;
+}
+
 .h1{
     color: black;
     font-size: 120px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
-}
-.main__h1{
-    background-color: rgb(235, 235, 235);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
 }
 
-.div1__h2{
+
+.industrial__h2{
     color: black;
     font-size: 90px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
-}
-.section .section__div1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+    text-align: center;
 }
 
-.div2__h2{
+
+.argentino__h2{
     color: black;
     font-size: 80px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
+    text-align: center;
 }
-.section .section__div2{
+
+/*footer estilo INDEX Y PAGESbackground-color: rgb(235, 235, 235);*/
+/*.footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
     
 }
 
-
-
-/*footer estilo INDEX Y PAGES*/
 .footer{
-    background-color: rgb(235, 235, 235);
-    border: 2px solid rgb(252, 160, 74);
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 1rem 0 1rem 0;
-}
+    justify-content: space-around;
+    align-items: center;
+}*/
 .nombre{
-    color: black;
+    color: rgb(252, 160, 74);
     font-size: 18px;
     font-family: 'Syne', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
-
+.div-parrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 .nav__footer ul li{
     list-style-type: none;
 }
@@ -141,8 +148,10 @@
 .nav__footer ul{
     display: flex;
     flex-direction: row;
-    margin-left: 40px;  
+    justify-content: flex-start;
+    align-items: center;
 }
+
 .linkedin i{
     color: rgb(252, 160, 74);
     font-size: 25px;
@@ -169,53 +178,73 @@
     .items-barra li a:hover{
         color: rgb(252, 160, 74);
     }    
-    .main{
-        height: 300px;
-        margin-top: 50px;
-    }
-    .h1{
-        color: black;
-        font-size: 35px;
-        font-family: 'Syne', sans-serif;
-        font-weight: 800;
-    }
-    .div1__h2{
-        color: black;
-        font-size: 30px;
-        font-family: 'Syne', sans-serif;
-        font-weight: 800;
-    }
-    .div2__h2{
-        color: black;
-        font-size: 30px;
-        font-family: 'Syne', sans-serif;
-        font-weight: 800;
-    }
-
-    .footer{
-        background-color: rgb(235, 235, 235);
-        border: 2px solid rgb(252, 160, 74);
+    
+    .main__div{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 8px 0 8px 0;
+    }
     
+    .h1{
+        color: black;
+        font-size: 28px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 2rem;
+    }
+    .industrial__h2{
+        color: black;
+        font-size: 28px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 2rem;
         
     }
+    .argentino__h2{
+        color: black;
+        font-size: 28px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        
+    }
+
+    .footer{
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-parrafo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav__footer ul li{
+        list-style-type: none;
+    }
+    
     .nav__footer ul{
         display: flex;
         flex-direction: row;
-        margin-left: 8px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+    }    
         
-    }
+    
     
 }
 
 /*------------------------------*/
-/*@media para tablet*/
+/*@media para sm*/
 
-@media (min-width: 576px) and (max-width: 991px) {
+@media (min-width: 577px) and (max-width: 767px) {
     .items-barra li a:hover{
         color: rgb(252, 160, 74);
     } 
@@ -227,36 +256,116 @@
         color: black;
         font-size: 55px;
         font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
         font-weight: 800;
+        margin: 3rem 0 3rem 0;
     }
-    .div1__h2{
+    .industrial__h2{
         color: black;
-        font-size: 45px;
+        font-size: 55px;
         font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
         font-weight: 800;
+        margin-bottom: 3rem;
+        
     }
-    .div2__h2{
+    .argentino__h2{
         color: black;
-        font-size: 45px;
+        font-size: 55px;
         font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
         font-weight: 800;
+        
     }
 
     .footer{
         background-color: rgb(235, 235, 235);
-        border: 2px solid rgb(252, 160, 74);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+    .div-parrafo{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        padding: 8px 0 8px 0;   
+        justify-content: center;
     }
+    .nav__footer ul li{
+        list-style-type: none;
+    }
+    
     .nav__footer ul{
         display: flex;
         flex-direction: row;
-        margin-left: 8px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
         
     }
+    
+}
+
+/*------------------------------*/
+/*@media para tablet*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    } 
+    /*.main{
+        height: 300px;
+        margin-top: 50px;
+    }*/
+    .h1{
+        color: black;
+        font-size: 65px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin: 3rem 0 3rem 0;
+    }
+    .industrial__h2{
+        color: black;
+        font-size: 65px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 3rem;
+        
+    }
+    .argentino__h2{
+        color: black;
+        font-size: 65px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        
+    }
+
+    .footer{
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;  
+    }
+    .div-parrafo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav__footer ul li{
+        list-style-type: none;
+    }
+    
+    .nav__footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
 }
 
 /*------------------------------*/
@@ -300,11 +409,12 @@
 .sectionAbout{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .sectionAbout div{
-    width: 620px;
-    height: 630px;
+    width: 610px;
+    height: 600px;
+    margin-right: 5rem;
 }
 .sectionAbout div, .babyYoda{
     display: flex;
@@ -319,22 +429,42 @@
     justify-content: center;
 }
 .div__uno{
-    width: 600px;
-    height: 415px;
-    border: 4px groove rgb(252, 160, 74);
-    border-radius: 10px;
-    padding: 10px;
-    margin: 8rem;
+    width: 700px;
+    height: 500px;
+    margin: 3rem 8rem 0 0;
 }
 
-.div__uno p{
+/*.div__uno p{
     color: black;
     font-size: 35px;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
     text-align: center;
 
+}*/
+
+.parrafo-uno{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: left;
 }
+.parrafo-dos{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: left;
+}
+.parrafo-tres{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: left;
+}
+
 
 /*section dos */
 
@@ -347,14 +477,15 @@
 .div__experiencia{
     width: 700px;
     height: 700px;
+    margin-right: 8rem;
 }
 
 .div__experiencia, .experiencia{
     color: black;
     font-size: 40px;
     font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    text-align: center;
+    font-weight: 800;
+    text-align: left;
     align-items: center;
 
 }
@@ -363,32 +494,37 @@
     font-size: 35px;
     font-family: 'Syne', sans-serif;
     font-weight: 600;
-    text-align: center;
+    
     align-items: center;
 } 
 .experiencia{
     width: 700px;
-    height: 60px;
+    height: 50px;
+    margin-top: 3rem;
 }
 .trabajo-cuatro{
     width: 700px;
     height: 101px;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    text-align: left;
 }
 .trabajo-tres{
     width: 700px;
     height: 101px;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    text-align: left;
 }
 .trabajo-dos{
     width: 700px;
     height: 101px;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    text-align: left;
 }
 .trabajo-uno{
     width: 700px;
     height: 101px;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    text-align: left;
 }
 
 /*Luminaria*/
@@ -402,6 +538,49 @@
     margin: 10px;
 }
   
-   
+/*bazar*/
 
+.section-bazar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+/*@media para mobile*/
+@media (max-width: 576px) {
     
+
+}  
+
+/*@media para tablet*/
+
+@media (min-width: 576px) and (max-width: 991px) {
+
+}
+
+
+
+
+/*personajes*/
+
+/*.section-personajes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}*/
+
+
+/*@media para mobile*/
+@media (max-width: 576px) {
+
+}
+
+/*@media para tablet*/
+
+@media (min-width: 576px) and (max-width: 991px) {
+
+}
