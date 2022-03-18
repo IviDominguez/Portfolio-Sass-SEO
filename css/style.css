@@ -369,79 +369,18 @@
 }
 
 /*------------------------------*/
-  
-/* estilo ABOUT*/
-/*header todas las pages*/
-
-
-/*.nav__bar ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.barra li{
-    margin: 0 20px;
-}
-
-.div__inicio{
-    list-style-type: none;
-}
-.div__inicio a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 8px; 
-}
-.hover__inicio a:hover{
-    background-color: rgb(252, 160, 74);
-    color: white;
-    border: 2px solid rgb(252, 160, 74);
-    border-radius: 20px;
-    padding: 8px;
-}*/
-
-/*section ABOUT*/
-.sectionAbout{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.sectionAbout div{
-    width: 610px;
-    height: 600px;
-    margin-right: 5rem;
-}
-.sectionAbout div, .babyYoda{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 /*main estilo ABOUT*/
 .mainAbout{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .div__uno{
-    width: 700px;
-    height: 500px;
-    margin: 3rem 8rem 0 0;
+    width: 44rem;
+    height: 31.2rem;
+    margin-top: 3rem;
 }
-
-/*.div__uno p{
-    color: black;
-    font-size: 35px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    text-align: center;
-
-}*/
 
 .parrafo-uno{
     color: black;
@@ -462,9 +401,26 @@
     font-size: 35px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
-    text-align: left;
+    text-align: right;
 }
 
+/*section uno ABOUT*/
+.sectionAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sectionAbout div{
+    width: 38.2rem;
+    height: 37.5rem;
+   
+}
+.sectionAbout div, .babyYoda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 /*section dos */
 
@@ -475,9 +431,8 @@
     align-items: center;
 }
 .div__experiencia{
-    width: 700px;
-    height: 700px;
-    margin-right: 8rem;
+    width: 43.8rem;
+    height: 43.8rem; 
 }
 
 .div__experiencia, .experiencia{
@@ -485,7 +440,7 @@
     font-size: 40px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
-    text-align: left;
+    text-align: center;
     align-items: center;
 
 }
@@ -494,7 +449,6 @@
     font-size: 35px;
     font-family: 'Syne', sans-serif;
     font-weight: 600;
-    
     align-items: center;
 } 
 .experiencia{
@@ -518,13 +472,285 @@
     width: 700px;
     height: 101px;
     margin-top: 2rem;
-    text-align: left;
+    text-align: right;
 }
 .trabajo-uno{
     width: 700px;
     height: 101px;
     margin-top: 2rem;
-    text-align: left;
+    text-align: right;
+}
+
+/*@media para mobile*/
+@media (max-width: 576px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    }
+    .div__uno{
+        width: 20rem;
+        height: 14rem;
+        margin-top: 3rem;
+        
+    }
+    .parrafo-uno{
+        color: black;
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: left;
+    }
+    .parrafo-dos{
+        color: black;
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: left;
+    }
+    .parrafo-tres{
+        color: black;
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: right;
+    }
+    .sectionAbout div, .babyYoda{
+        display:none
+    }
+    /*section dos*/
+
+    .div__experiencia{
+        width: 20rem;
+        height: 40rem; 
+    }
+    
+    .div__experiencia, .experiencia{
+        color: black;
+        font-size: 20px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .div__experiencia, .trabajo-cuatro, .trabajo-tres, .trabajo-dos, .trabajo-uno{
+        color: black;
+        font-size: 20px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        align-items: center;
+    } 
+    .experiencia{
+        width: 20rem;
+        height: 3.2rem;
+        margin-top: 4rem;
+    }
+    .trabajo-cuatro{
+        width: 20rem;
+        height: 6rem;
+        margin-top: 2rem;
+        text-align: left;
+    }
+    .trabajo-tres{
+        width: 20rem;
+        height: 4.5rem;
+       
+        text-align: left;
+    }
+    .trabajo-dos{
+        width: 20rem;
+        height: 6rem;
+        
+        text-align: right;
+    }
+    .trabajo-uno{
+        width: 20rem;
+        height: 6rem;
+     
+        text-align: right;
+    }
+
+}
+
+/*@media para sm*/
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    }
+    .div__uno{
+        width: 22rem;
+        height: 24rem;
+        margin-top: 3rem;
+        
+    }
+    .parrafo-uno{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: left;
+    }
+    .parrafo-dos{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: left;
+    }
+    .parrafo-tres{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: right;
+    }
+    .sectionAbout div, .babyYoda{
+        display:none
+    }
+    /*section dos*/
+
+        .div__experiencia{
+            width: 20rem;
+            height: 40rem; 
+        }
+        
+        .div__experiencia, .experiencia{
+            color: black;
+            font-size: 25px;
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            text-align: center;
+            align-items: center;
+        
+        }
+        .div__experiencia, .trabajo-cuatro, .trabajo-tres, .trabajo-dos, .trabajo-uno{
+            color: black;
+            font-size: 20px;
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            align-items: center;
+        } 
+        .experiencia{
+            width: 20rem;
+            height: 3.2rem;
+            margin-top: 3rem;
+        }
+        .trabajo-cuatro{
+            width: 20rem;
+            height: 6rem;
+            margin-top: 2rem;
+            text-align: left;
+        }
+        .trabajo-tres{
+            width: 20rem;
+            height: 4.5rem;
+           
+            text-align: left;
+        }
+        .trabajo-dos{
+            width: 20rem;
+            height: 6rem;
+            
+            text-align: right;
+        }
+        .trabajo-uno{
+            width: 20rem;
+            height: 6rem;
+         
+            text-align: right;
+        }
+}
+
+
+/*@media para tablet*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    }
+    .div__uno{
+        width: 28rem;
+        height: 26rem;
+        margin: 3rem 0 3rem 0;
+        
+    }
+    .parrafo-uno{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    }
+    .parrafo-dos{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    }
+    .parrafo-tres{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: right;
+    }
+    .sectionAbout div, .babyYoda{
+        display:none
+    }
+    /*section dos*/
+
+    .div__experiencia{
+        width: 28rem;
+        height: 40rem; 
+    }
+    
+    .div__experiencia, .experiencia{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .div__experiencia, .trabajo-cuatro, .trabajo-tres, .trabajo-dos, .trabajo-uno{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        align-items: center;
+    } 
+    .experiencia{
+        width: 28rem;
+        height: 3rem;
+        margin-top: 4rem;
+    }
+    .trabajo-cuatro{
+        width: 28rem;
+        height: 6rem;
+        margin-top: 1rem;
+        text-align: left;
+    }
+    .trabajo-tres{
+        width: 28rem;
+        height: 4.5rem;
+       
+        text-align: left;
+    }
+    .trabajo-dos{
+        width: 28rem;
+        height: 6rem;
+        
+        text-align: right;
+    }
+    .trabajo-uno{
+        width: 28rem;
+        height: 6rem;
+     
+        text-align: right;
+    }
+
 }
 
 /*Luminaria*/
@@ -546,41 +772,4 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
-}
-
-/*@media para mobile*/
-@media (max-width: 576px) {
-    
-
-}  
-
-/*@media para tablet*/
-
-@media (min-width: 576px) and (max-width: 991px) {
-
-}
-
-
-
-
-/*personajes*/
-
-/*.section-personajes{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-}*/
-
-
-/*@media para mobile*/
-@media (max-width: 576px) {
-
-}
-
-/*@media para tablet*/
-
-@media (min-width: 576px) and (max-width: 991px) {
-
 }
