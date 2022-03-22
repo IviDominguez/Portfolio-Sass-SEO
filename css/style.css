@@ -4,7 +4,7 @@
 }
 
 .container__general{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(235, 235, 235)
 }
 
 
@@ -487,8 +487,8 @@
         color: rgb(252, 160, 74);
     }
     .div__uno{
-        width: 20rem;
-        height: 14rem;
+        width: 18rem;
+        height: 19rem;
         margin-top: 3rem;
         
     }
@@ -496,21 +496,21 @@
         color: black;
         font-size: 18px;
         font-family: 'Syne', sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         text-align: left;
     }
     .parrafo-dos{
         color: black;
         font-size: 18px;
         font-family: 'Syne', sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         text-align: left;
     }
     .parrafo-tres{
         color: black;
         font-size: 18px;
         font-family: 'Syne', sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         text-align: right;
     }
     .sectionAbout div, .babyYoda{
@@ -519,13 +519,13 @@
     /*section dos*/
 
     .div__experiencia{
-        width: 20rem;
+        width: 18rem;
         height: 40rem; 
     }
     
     .div__experiencia, .experiencia{
         color: black;
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Syne', sans-serif;
         font-weight: 800;
         text-align: center;
@@ -540,30 +540,30 @@
         align-items: center;
     } 
     .experiencia{
-        width: 20rem;
-        height: 3.2rem;
+        width: 18rem;
+        height: 3rem;
         margin-top: 4rem;
     }
     .trabajo-cuatro{
-        width: 20rem;
+        width: 18rem;
         height: 6rem;
         margin-top: 2rem;
         text-align: left;
     }
     .trabajo-tres{
-        width: 20rem;
+        width: 18rem;
         height: 4.5rem;
        
         text-align: left;
     }
     .trabajo-dos{
-        width: 20rem;
+        width: 18rem;
         height: 6rem;
         
         text-align: right;
     }
     .trabajo-uno{
-        width: 20rem;
+        width: 18rem;
         height: 6rem;
      
         text-align: right;
@@ -579,7 +579,7 @@
     }
     .div__uno{
         width: 22rem;
-        height: 24rem;
+        height: 28rem;
         margin-top: 3rem;
         
     }
@@ -587,21 +587,21 @@
         color: black;
         font-size: 25px;
         font-family: 'Syne', sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         text-align: left;
     }
     .parrafo-dos{
         color: black;
         font-size: 25px;
         font-family: 'Syne', sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         text-align: left;
     }
     .parrafo-tres{
         color: black;
         font-size: 25px;
         font-family: 'Syne', sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         text-align: right;
     }
     .sectionAbout div, .babyYoda{
@@ -610,13 +610,13 @@
     /*section dos*/
 
         .div__experiencia{
-            width: 20rem;
+            width: 22rem;
             height: 40rem; 
         }
         
         .div__experiencia, .experiencia{
             color: black;
-            font-size: 25px;
+            font-size: 20px;
             font-family: 'Syne', sans-serif;
             font-weight: 800;
             text-align: center;
@@ -631,30 +631,30 @@
             align-items: center;
         } 
         .experiencia{
-            width: 20rem;
-            height: 3.2rem;
-            margin-top: 3rem;
+            width: 22rem;
+            height: 2rem;
+            margin-top: 4rem;
         }
         .trabajo-cuatro{
-            width: 20rem;
+            width: 22rem;
             height: 6rem;
             margin-top: 2rem;
             text-align: left;
         }
         .trabajo-tres{
-            width: 20rem;
+            width: 22rem;
             height: 4.5rem;
            
             text-align: left;
         }
         .trabajo-dos{
-            width: 20rem;
+            width: 22rem;
             height: 6rem;
             
             text-align: right;
         }
         .trabajo-uno{
-            width: 20rem;
+            width: 22rem;
             height: 6rem;
          
             text-align: right;
@@ -707,7 +707,7 @@
     
     .div__experiencia, .experiencia{
         color: black;
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Syne', sans-serif;
         font-weight: 800;
         text-align: center;
@@ -766,7 +766,7 @@
   
 /*bazar*/
 
-.section-bazar{
+.main-bazar{
     display: flex;
     flex-direction: row;
     justify-content: center;
