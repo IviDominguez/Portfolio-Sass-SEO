@@ -1,26 +1,24 @@
-@import "../base/listas";
+@import "../base/extends";
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/maps";
 
 footer{
     div{
         div{
             .div-parrafo{
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-end;
+                @extend %disposicion2;
                 .nombre{
                     color: $color-acento;
                     font-size: 18px;
                     font-family: 'Syne', sans-serif;
-                    font-weight: nth($weight-font, 2);
+                    font-weight: nth($font-w, 2);
                 }
             }
             .nav__footer{
                 ul{
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: flex-start;
-                    align-items: center;
+                    @extend %disposicion1;
                     li{
                         list-style-type: none;
                         .linkedin i{

@@ -1,3 +1,11 @@
-@import "../componentes/footer";
-@import "../base/listas";
-@import "../base/variables";
+@import "../scss/componentes/footer";
+@import "../scss/componentes/main";
+@import "../scss/componentes/header";
+
+@import "../scss/base/listas";
+@import "../scss/base/variables";
+@import "../scss/base/extends";
+@import "../scss/base/mixin";
+@import "../scss/base/maps";
+
+

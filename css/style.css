@@ -1,19 +1,48 @@
-footer div div .div-parrafo {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-footer div div .div-parrafo .nombre {
-  color: #fca04a;
-  font-size: 18px;
-  font-family: "Syne", sans-serif;
-  font-weight: 500;
-}
 footer div div .nav__footer ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+footer div div .div-parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div div .nav__footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer div div .div-parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div div .div-parrafo .nombre {
+  color: #fca04a;
+  font-size: 18px;
+  font-family: "Syne", sans-serif;
+  font-weight: 500;
 }
 footer div div .nav__footer ul li {
   list-style-type: none;
@@ -36,6 +65,162 @@ footer div div .nav__footer ul li .instagram i {
   color: #fca04a;
   font-size: 25px;
   margin-left: 20px;
+}
+
+footer div div .nav__footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer div div .div-parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainIndex .main__div {
+  width: 60rem;
+  height: 28rem;
+}
+.mainIndex .main__div div div .h1 {
+  color: black;
+  font-size: 120px;
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+.mainIndex .main__div div div .industrial__h2 {
+  color: black;
+  font-size: 90px;
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+.mainIndex .main__div div div .argentino__h2 {
+  color: black;
+  font-size: 80px;
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+footer div div .nav__footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer div div .div-parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div div .nav__footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer div div .div-parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav div .logo {
+  margin-left: 3rem;
+}
+header nav div div .navBar-modificada {
+  background-color: #ebebeb;
+}
+header nav div div .navBar-modificada .items-barra {
+  margin-right: 2rem;
+}
+header nav div div .navBar-modificada li .boton {
+  text-decoration: none;
+  color: black;
+  font-family: "Syne", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+header nav div div .navBar-modificada li .boton:hover {
+  color: #fca04a;
+}
+header nav div div .navBar-modificada li .boton {
+  text-decoration: none;
+  color: black;
+  font-family: "Syne", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+header nav div div .navBar-modificada li .boton:hover {
+  color: #fca04a;
+}
+header nav div div .navBar-modificada li .boton {
+  text-decoration: none;
+  color: black;
+  font-family: "Syne", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+header nav div div .navBar-modificada li .boton:hover {
+  color: #fca04a;
+}
+header nav div div .navBar-modificada li .boton {
+  text-decoration: none;
+  color: black;
+  font-family: "Syne", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+header nav div div .navBar-modificada li .boton:hover {
+  color: #fca04a;
+}
+
+footer div div .nav__footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer div div .div-parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
