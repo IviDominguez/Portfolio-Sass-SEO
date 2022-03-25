@@ -1,0 +1,50 @@
+@import "../base/listas";
+@import "../base/variables";
+
+footer{
+    div{
+        div{
+            .div-parrafo{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                .nombre{
+                    color: $color-acento;
+                    font-size: 18px;
+                    font-family: 'Syne', sans-serif;
+                    font-weight: nth($weight-font, 2);
+                }
+            }
+            .nav__footer{
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                    li{
+                        list-style-type: none;
+                        .linkedin i{
+                            color: $color-acento;
+                            font-size: nth($size-iconos, 2);
+                        }
+                        .behance i{
+                            color: $color-acento;
+                            font-size: nth($size-iconos, 2);
+                            margin-left: 20px;
+                        }
+                        .facebook i{
+                            color: $color-acento;
+                            font-size: nth($size-iconos, 2);
+                            margin-left: 20px;
+                        }
+                        .instagram i{
+                            color: $color-acento;
+                            font-size: nth($size-iconos, 2);
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

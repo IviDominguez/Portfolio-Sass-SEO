@@ -1,0 +1,19 @@
+{
+  "name": "portfoliosass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IviDominguez/PortfolioConGit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IviDominguez/PortfolioConGit/issues"
+  },
+  "homepage": "https://github.com/IviDominguez/PortfolioConGit#readme",
+  "description": ""
+}
